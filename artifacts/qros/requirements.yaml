@@ -1,0 +1,10 @@
+packages:
+  "framer-motion": "For page transitions and complex card entry animations"
+  "recharts": "For the executive transformation radar chart"
+  "lucide-react": "For icons throughout the application"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+notes:
+  - Static data is used based on the prompt's provided JSON structure.
+  - The application is locked to dark mode per design requirements.

@@ -1,0 +1,236 @@
+REPLIT UPDATE — ALIGN DOMAINS TO SURVEY CATEGORIES + UPDATE ALL CONTENT
+OBJECTIVE
+
+Replace current 10-domain model with 5 survey-aligned categories
+
+Ensure main dashboard + detail pages match survey structure
+
+Update all insights and actions to reflect actual survey constructs
+
+Maintain existing UI style and interaction patterns
+
+1. REPLACE DOMAIN MODEL (GLOBAL CHANGE)
+REMOVE THESE CURRENT DOMAINS:
+
+Finance
+
+AI Adoption
+
+Operations
+
+Workforce
+
+Technology (as currently defined)
+
+Sales
+
+Legal
+
+Customer
+
+Strategy
+
+Governance (as standalone)
+
+REPLACE WITH EXACTLY THESE 5 CATEGORIES:
+
+Data
+
+Technology
+
+People & Process
+
+Portfolio Management & Governance
+
+Executive Alignment & Strategy
+
+These must be the only clickable domains.
+
+2. UPDATE MAIN DASHBOARD (TRANSFORMATION DOMAINS GRID)
+EACH CARD MUST SHOW:
+
+Category name (exact wording above)
+
+Score (existing logic)
+
+Benchmark indicator (arrow + % vs peers)
+
+ONE short signal line (derived from survey themes)
+
+USE EXACT TEXT FOR SIGNAL LINE
+Data
+
+“Gap: Data quality and ownership”
+
+Technology
+
+“Gap: Integration and observability”
+
+People & Process
+
+“Gap: Automation and adoption”
+
+Portfolio Management & Governance
+
+“Gap: Value tracking and ownership”
+
+Executive Alignment & Strategy
+
+“Gap: Alignment and prioritization”
+
+3. DETAIL PAGE STRUCTURE (APPLIES TO ALL 5)
+
+Keep layout, but:
+
+Replace “Executive Insight” with Key Findings & Actions
+
+Remove separate actions section
+
+Use paired insight → action format
+
+4. DATA CATEGORY — FULL CONTENT
+Key Findings & Actions
+
+Data quality issues are often identified after analysis rather than proactively
+→ Action: Implement automated data quality validation and monitoring
+
+Data ownership and accountability are inconsistently defined across domains
+→ Action: Assign clear data ownership and stewardship roles
+
+Reporting and data pipelines lack consistency across systems
+→ Action: Standardize reporting pipelines and enforce version control
+
+Indicators (use existing UI, map to survey themes)
+
+Data Quality
+
+Data Governance
+
+Reporting Reliability
+
+Data Availability
+
+5. TECHNOLOGY CATEGORY — FULL CONTENT
+Key Findings & Actions
+
+Systems and data platforms are fragmented across multiple tools
+→ Action: Consolidate platforms into a unified data and application architecture
+
+Observability and monitoring are reactive rather than proactive
+→ Action: Implement centralized monitoring for pipelines, systems, and models
+
+Integration between systems relies on custom or manual processes
+→ Action: Standardize integration using reusable interfaces and automation
+
+Indicators
+
+System Integration
+
+Observability
+
+Data Pipelines
+
+Platform Architecture
+
+6. PEOPLE & PROCESS — FULL CONTENT
+Key Findings & Actions
+
+Manual processes remain prevalent despite automation opportunities
+→ Action: Automate high-frequency operational and data workflows
+
+AI and data literacy is inconsistent across business teams
+→ Action: Implement structured AI and data training programs
+
+Adoption of new tools is not consistently measured or supported
+→ Action: Track adoption metrics and provide onboarding support
+
+Indicators
+
+Process Automation
+
+AI Literacy
+
+Adoption
+
+Change Management
+
+7. PORTFOLIO MANAGEMENT & GOVERNANCE — FULL CONTENT
+Key Findings & Actions
+
+Projects are initiated without clearly defined business outcomes
+→ Action: Require business cases with measurable value before approval
+
+Ownership of systems and outcomes is not consistently defined
+→ Action: Assign accountable owners for all systems and initiatives
+
+Post-deployment value tracking is inconsistent or absent
+→ Action: Implement benefit tracking tied to KPIs and dashboards
+
+Indicators
+
+Business Case Rigor
+
+Ownership
+
+KPI Tracking
+
+Benefit Realization
+
+8. EXECUTIVE ALIGNMENT & STRATEGY — FULL CONTENT
+Key Findings & Actions
+
+AI and data strategy is not consistently aligned across business units
+→ Action: Establish cross-functional planning and prioritization processes
+
+Executive sponsorship is present but not consistently engaged in delivery
+→ Action: Increase executive involvement in ongoing program reviews
+
+Resource allocation does not consistently align with strategic priorities
+→ Action: Align funding and staffing to strategic AI and data roadmap
+
+Indicators
+
+Strategic Alignment
+
+Executive Sponsorship
+
+Resource Alignment
+
+Cross-Functional Prioritization
+
+9. UPDATE DATA MODEL
+
+Replace dimension structure with:
+
+categories: [
+  {
+    name: "Data",
+    score: number,
+    benchmarkDelta: number,
+    history: [],
+    indicators: [],
+    findings: [
+      {
+        insight: "",
+        action: ""
+      }
+    ]
+  }
+]
+10. NAVIGATION
+
+Dashboard shows 5 categories only
+
+Clicking a category opens its detail page
+
+Remove all legacy domain routes
+
+11. DO NOT CHANGE
+
+Visual design system
+
+Timeline component
+
+Color scheme
+
+Animation

@@ -1,0 +1,185 @@
+REPLIT UPDATE INSTRUCTIONS — FINAL POLISH (DO NOT RESTRUCTURE UI)
+OBJECTIVE
+
+Improve credibility and clarity by:
+
+sharpening insights (less generic, more diagnostic)
+
+making timeline meaningful (benchmark context)
+
+improving action prioritization
+
+adding minimal but real grounding signals
+
+Do NOT change layout, spacing, or overall design.
+
+1. UPDATE TIMELINE (ADD BENCHMARK CONTEXT)
+Change: Add benchmark reference line
+
+In every “Maturity Over Time” chart:
+
+Add a horizontal dotted line representing peer benchmark
+
+Color: muted gray (rgba(255,255,255,0.2))
+
+No label on chart itself
+
+Add small label (top-right of chart)
+
+Example:
+“Benchmark: 68”
+
+Keep:
+
+font-size small
+
+muted color
+
+Keep existing:
+
+trend (+X pts)
+
+“Improving”
+
+Do NOT add more text.
+
+2. REWRITE ALL EXECUTIVE INSIGHTS (CRITICAL)
+Replace ALL current insight text with this rule:
+
+Each insight must follow:
+
+Line 1: position vs peers
+Line 2: where improvement is happening (or not)
+Line 3: specific cause (NOT generic)
+
+Replace Governance insight with:
+
+“Governance frameworks are slightly above peers, but enforcement remains inconsistent.
+Recent improvement is concentrated in policy definition rather than monitoring.
+Survey responses highlight weak oversight and unclear ownership of controls.”
+
+Apply same pattern to all other dimensions
+
+Key rule:
+
+Avoid phrases like “opportunities exist”
+
+Avoid vague language like “gaps remain” without specifying where
+
+3. UPDATE KEY INDICATORS (VISUAL SIGNAL ONLY)
+
+Do NOT change structure.
+
+Add visual grouping:
+
+65% → green bar
+
+55–65% → yellow/orange bar
+
+<55% → orange/red bar
+
+Goal:
+Make weaknesses visually obvious without adding text.
+
+4. PRIORITIZE FIRST ACTION (SUBTLE BUT IMPORTANT)
+Change:
+
+First item in “Next Best Actions”:
+
+Add subtle highlight:
+
+slightly brighter border OR
+
+faint orange glow
+
+Add small label:
+
+“Priority”
+
+Keep minimal. No icons needed.
+
+Do NOT:
+
+add ranking numbers
+
+add effort/impact scoring
+
+5. UPGRADE ACTION LANGUAGE (ALL DIMENSIONS)
+Modify every “Driven by” line:
+
+Add trend context
+
+BEFORE:
+
+Driven by: lack of ongoing oversight
+
+AFTER:
+
+Driven by: lack of ongoing oversight with no improvement across periods
+
+OR:
+
+Driven by: improvement in policy definition but lagging monitoring capabilities
+
+Goal:
+Every action reflects trajectory, not just state.
+
+6. ADD RESPONSE VOLUME (CREDIBILITY BOOST)
+
+At bottom of each detail page, replace:
+
+“Based on survey responses and peer benchmarks”
+
+WITH:
+
+“Based on 24 survey responses and peer benchmarks”
+
+(Use 20–30 range consistently across app)
+
+7. UPDATE DASHBOARD CARDS (DRIVE CLICKS)
+Add ONE line per domain card:
+
+Small, muted text:
+
+Examples:
+
+“Gap: Automation”
+
+“Lagging vs peers”
+
+“Strength: Governance”
+
+Place under score.
+
+Rule:
+
+max 3 words
+
+no sentences
+
+no extra UI elements
+
+8. OPTIONAL (IF TIME — LOW EFFORT, HIGH IMPACT)
+Add slight variance indicator (only in insight, not UI)
+
+Example addition to insight:
+
+“Survey responses show high variance across teams…”
+
+Use sparingly (1–2 dimensions max).
+
+This makes the product feel more “intelligent” without new UI.
+
+WHAT NOT TO TOUCH
+
+Do NOT:
+
+change layout
+
+add new sections
+
+add charts beyond what exists
+
+introduce financial metrics
+
+increase text volume

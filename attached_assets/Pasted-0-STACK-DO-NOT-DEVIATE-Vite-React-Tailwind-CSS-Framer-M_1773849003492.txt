@@ -1,0 +1,364 @@
+0. STACK (DO NOT DEVIATE)
+
+Vite + React
+
+Tailwind CSS
+
+Framer Motion (for animations)
+
+Recharts (for radar chart)
+
+1. GLOBAL DESIGN SYSTEM
+COLORS (exact palette)
+
+Background:
+
+#0B0B0C (main)
+
+Gradient overlay: radial-gradient(circle at 20% 20%, #1A0F0A, transparent 40%)
+
+Cards:
+
+#111113
+
+Border: rgba(255,255,255,0.06)
+
+Primary accent (orange):
+
+#FF6A2A
+
+Hover: #FF7F45
+
+Green:
+
+#22C55E
+
+Red:
+
+#EF4444
+
+Muted text:
+
+#9CA3AF
+
+Primary text:
+
+#F3F4F6
+
+TYPOGRAPHY
+
+Font: Inter (Google Font)
+
+Hierarchy:
+
+H1: 28px, bold
+
+H2: 20px, semibold
+
+Body: 14px
+
+Small: 12px
+
+Letter spacing: slightly tight (-0.01em)
+
+SPACING SYSTEM
+
+Section padding: p-6
+
+Card padding: p-4
+
+Gap between cards: gap-4
+
+Border radius: rounded-xl
+
+SHADOWS
+
+Cards: shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_10px_30px_rgba(0,0,0,0.6)]
+
+ANIMATIONS
+
+Fade + slide up on load:
+
+opacity: 0 → 1
+
+y: 10 → 0
+
+duration: 0.3s
+
+Hover:
+
+scale: 1.02
+
+glow border
+
+2. PAGE STRUCTURE
+TOP HEADER (MATCH EXACT LAYOUT)
+
+Left:
+
+“QROS™”
+
+Subtitle: “The AI Operating System for Continuous Transformation”
+
+Center:
+
+Company: ACME
+
+QROS Level: Level 2 (Scaling)
+
+Score: 62 / 100 (+4 QoQ in green)
+
+Transformation Velocity: “Improving” (green)
+
+Right:
+
+Maturity Level bar (L1–L4 horizontal)
+
+3. MAIN PAGE (EXECUTIVE VIEW)
+LEFT: TRANSFORMATION RADAR
+
+Radar chart with 3 layers:
+
+Current (red)
+
+Target (green)
+
+Benchmark (blue)
+
+Categories:
+
+Workforce, AI Adoption, Governance, Finance, Operations, Sales, Legal, Technology, Customer, Strategy
+
+Legend below chart.
+
+RIGHT: REMOVE “ECONOMIC IMPACT PROJECTION”
+
+Replace with:
+
+“Benchmark Position” CARD
+
+Show 3–4 horizontal bars:
+
+Example:
+
+Governance — Top 40% ↑
+
+AI Enablement — Bottom 35% ↓
+
+Finance — Median —
+
+Use:
+
+Green arrow up
+
+Red arrow down
+
+Neutral dash
+
+No fake financials.
+
+4. TRANSFORMATION DOMAIN GRID
+
+Exact structure from screenshot.
+
+Each card includes:
+
+Title
+
+Impact Potential (High / Medium)
+
+QR Engagement (Engaged / Opportunity / Not Engaged)
+
+Trend icon (small bars)
+
+Color coding:
+
+Green = strong
+
+Yellow = medium
+
+Red = weak
+
+Hover:
+
+Lift + glow
+
+Click:
+
+Navigate to detail page
+
+5. REMOVE “AGENTIC ENGINE” SECTION (OPTIONAL)
+
+If you keep it:
+
+Reduce height by 30%
+
+Make it less dominant
+
+Right now it’s visual noise.
+
+6. DETAIL PAGE (FINANCE) — MOST IMPORTANT
+
+This must stay visually similar but become sharper.
+
+A. HEADER
+
+Left:
+Finance Optimization
+
+Below:
+Developing — Level 2
+
+Right:
+“Below peer average” (if negative delta)
+
+B. KEY INDICATORS CARD
+
+Each row:
+
+LEFT:
+
+Indicator name
+
+CENTER:
+
+Progress bar
+
+RIGHT:
+
+% score
+
+Benchmark delta under it (small)
+
+Example:
+Process Automation
+58%
+–15% vs peers
+
+Keep compact.
+
+C. EXECUTIVE INSIGHT (REWRITE, NOT EXPAND)
+
+Replace current generic text with:
+
+Structure:
+Line 1: comparison
+Line 2: cause
+
+Example:
+“Forecasting is near peer average, but automation lags significantly.
+Survey responses show inconsistent process standardization across teams.”
+
+Max 2–3 lines.
+
+No fluff.
+
+D. NEXT BEST ACTIONS (FIX THIS)
+
+Each item:
+
+Title (bold)
+
+Below (small muted):
+“Driven by: [specific survey signal]”
+
+Example:
+
+Deploy AI forecasting models
+Driven by: low confidence in forecast accuracy and heavy manual overrides
+
+Automate AP/AR workflows
+Driven by: widespread manual reconciliation across finance teams
+
+E. ADD: “PATH TO NEXT LEVEL”
+
+Small card:
+
+Level 2 → Level 3
+
+Text:
+“Standardized workflows, reduced manual intervention, consistent data usage”
+
+No charts.
+
+F. REMOVE:
+
+EBITDA block entirely
+
+It is hurting credibility.
+
+G. FOOTER LINE
+
+Bottom of page:
+
+“Based on survey responses and peer benchmarks”
+
+Very subtle.
+
+7. SYSTEM ARCHITECTURE PAGE
+
+Match layout exactly:
+
+Vertical stack:
+
+Client Workforce
+
+Governance & Control
+
+Agentic Intelligence Engine
+
+QR Foundational Assets
+
+Technology Ecosystem
+
+Each block:
+
+Full width card
+
+Different color tint
+
+Arrow between blocks
+
+Center aligned.
+
+8. DATA MODEL
+
+Use structured JSON:
+
+{
+  company: "ACME",
+  score: 62,
+  level: 2,
+  dimensions: [
+    {
+      name: "Finance",
+      score: 62,
+      benchmarkDelta: -12,
+      indicators: [...],
+      insight: "...",
+      actions: [...]
+    }
+  ]
+}
+
+Do not hardcode UI text.
+
+9. WHAT TO BE CAREFUL ABOUT
+
+If Replit drifts, it will:
+
+Add too much spacing
+
+Use wrong colors (too bright or too gray)
+
+Over-round everything
+
+Use generic charts
+
+Force:
+
+Tight spacing
+
+Dark, rich tones
+
+Subtle, not loud UI

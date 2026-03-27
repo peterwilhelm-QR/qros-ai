@@ -1,0 +1,372 @@
+(DETAIL PAGE CONTENT + TIME DIMENSION + ALL 10 DIMENSIONS)
+1. GLOBAL RULES (APPLY TO EVERY DIMENSION PAGE)
+Layout (DO NOT CHANGE STRUCTURE)
+
+Every dimension detail page must follow this exact order:
+
+Header
+
+Timeline (Maturity Over Time)
+
+Key Indicators
+
+Executive Insight
+
+Next Best Actions
+
+Path to Next Level
+
+Footer (source)
+
+Content Rules (STRICT)
+
+Executive Insight = max 3 lines
+
+Actions = max 4
+
+Indicators = max 4
+
+No paragraphs anywhere
+
+No filler language
+
+Every action must tie to a signal
+
+Every insight must include:
+
+comparison (vs peers OR internal inconsistency)
+
+trend (improving / stagnant / declining)
+
+cause
+
+2. TIME DIMENSION (APPLIES TO ALL 10 PAGES)
+Component: “Maturity Over Time”
+
+Use for every dimension.
+
+Data format:
+history: [Q1, Q2, Q3, Q4]
+Display:
+
+Single line chart
+
+Subtle
+
+No clutter
+
+Add right-side summary:
+
+“+X pts over last 2 periods”
+
+“Trend: Improving / Stagnant / Declining”
+
+3. FINANCE (FULL IMPLEMENTATION)
+History
+
+[52, 55, 59, 62]
+
+Indicators
+
+Process Automation — 58% (–15% vs peers)
+
+Forecast Accuracy — 76% (+5%)
+
+Cost Optimization — 62% (–8%)
+
+Analytics Maturity — 71% (+2%)
+
+Executive Insight
+
+“Forecasting is in line with peers, but automation remains below benchmark.
+Improvement has been gradual over recent periods.
+Survey responses indicate inconsistent workflows across teams.”
+
+Actions
+
+Deploy AI forecasting models
+Driven by: stable but plateauing forecast performance
+
+Automate AP/AR workflows
+Driven by: persistent manual reconciliation with limited improvement
+
+Standardize financial data pipelines
+Driven by: inconsistent definitions across teams
+
+Implement real-time reporting
+Driven by: delayed financial visibility
+
+Path
+
+Level 2 → Level 3
+“Standardized workflows and consistent financial data usage”
+
+4. WORKFORCE & SKILLS
+
+History
+[48, 50, 53, 56]
+
+Indicators
+
+AI Literacy — 52% (–18%)
+
+Training Coverage — 60% (–10%)
+
+Talent Availability — 65% (–5%)
+
+Adoption Readiness — 58% (–12%)
+
+Insight
+“Workforce capability remains below peers with uneven skill distribution.
+Improvement is slow across periods.
+Survey responses show limited structured training and unclear ownership.”
+
+Actions
+Launch role-based AI training
+Driven by: low and uneven AI literacy
+
+Define AI ownership by function
+Driven by: unclear accountability
+
+Upskill priority roles
+Driven by: uneven readiness across teams
+
+5. AI ADOPTION & ENABLEMENT
+
+History
+[42, 45, 47, 50]
+
+Indicators
+
+Use Case Deployment — 48% (–20%)
+
+Model Usage — 55% (–12%)
+
+Experimentation — 50% (–15%)
+
+Productionization — 45% (–18%)
+
+Insight
+“AI adoption lags peers with limited production use cases.
+Progress is incremental but remains below benchmark.
+Survey responses show experimentation without scaling.”
+
+Actions
+Prioritize 2–3 production use cases
+Driven by: low conversion from pilots
+
+Create deployment playbooks
+Driven by: inconsistent implementation
+
+Centralize AI backlog
+Driven by: fragmented experimentation
+
+6. GOVERNANCE & RISK
+
+History
+[60, 62, 65, 67]
+
+Indicators
+
+Policy Definition — 70% (+5%)
+
+Compliance — 68% (+3%)
+
+Risk Monitoring — 60% (–8%)
+
+Model Governance — 55% (–10%)
+
+Insight
+“Governance frameworks are strong relative to peers, but enforcement gaps remain.
+Improvement is steady over time.
+Survey responses highlight weak monitoring and oversight.”
+
+Actions
+Implement model monitoring
+Driven by: lack of ongoing oversight
+
+Standardize enforcement
+Driven by: inconsistent policy application
+
+Define escalation workflows
+Driven by: unclear ownership
+
+7. OPERATIONS EFFICIENCY
+
+History
+[55, 57, 59, 61]
+
+Indicators
+
+Process Efficiency — 65% (–5%)
+
+Automation Coverage — 55% (–12%)
+
+Cycle Time — 60% (–8%)
+
+Exception Handling — 50% (–15%)
+
+Insight
+“Operations are moderately efficient but still reliant on manual processes.
+Improvement is gradual but below peers.
+Survey responses show automation gaps in core workflows.”
+
+Actions
+Automate high-volume workflows
+Driven by: manual bottlenecks
+
+Implement process monitoring
+Driven by: limited visibility
+
+Reduce exception variability
+Driven by: inconsistent execution
+
+8. SALES & REVENUE
+
+History
+[54, 56, 57, 59]
+
+Indicators
+
+Pipeline Visibility — 62% (–6%)
+
+Forecast Accuracy — 58% (–10%)
+
+Conversion — 55% (–12%)
+
+Pricing Optimization — 50% (–15%)
+
+Insight
+“Revenue operations lag peers in forecasting and conversion efficiency.
+Improvement is limited over time.
+Survey responses show low use of data in decision-making.”
+
+Actions
+Deploy AI pipeline forecasting
+Driven by: low forecast confidence
+
+Optimize pricing models
+Driven by: inconsistent pricing
+
+Improve sales analytics
+Driven by: limited performance visibility
+
+9. LEGAL & COMPLIANCE
+
+History
+[62, 64, 66, 68]
+
+Indicators
+
+Regulatory Compliance — 72% (+6%)
+
+Contract Automation — 55% (–10%)
+
+Risk Identification — 60% (–5%)
+
+Review Cycle — 58% (–8%)
+
+Insight
+“Compliance posture is strong, but processes remain manual.
+Improvement is steady but limited in automation.
+Survey responses highlight slow contract cycles.”
+
+Actions
+Automate contract workflows
+Driven by: manual bottlenecks
+
+Implement compliance monitoring
+Driven by: reactive risk management
+
+Standardize legal processes
+Driven by: inconsistent execution
+
+10. TECHNOLOGY & DATA
+
+History
+[58, 60, 62, 64]
+
+Indicators
+
+Infrastructure — 68% (+2%)
+
+Data Quality — 60% (–8%)
+
+Integration — 55% (–12%)
+
+Accessibility — 58% (–10%)
+
+Insight
+“Data infrastructure is solid but fragmented across systems.
+Improvement is consistent but below peer integration levels.
+Survey responses indicate data quality inconsistencies.”
+
+Actions
+Consolidate data pipelines
+Driven by: fragmented systems
+
+Improve data quality controls
+Driven by: inconsistent reliability
+
+Enable self-service access
+Driven by: limited accessibility
+
+11. CUSTOMER PERFORMANCE
+
+History
+[56, 58, 60, 61]
+
+Indicators
+
+Customer Insights — 60% (–8%)
+
+Personalization — 55% (–12%)
+
+Retention — 62% (–5%)
+
+Feedback Usage — 58% (–10%)
+
+Insight
+“Customer understanding is moderate but underutilized.
+Improvement is incremental over time.
+Survey responses show limited activation of insights.”
+
+Actions
+Implement personalization models
+Driven by: low personalization maturity
+
+Activate feedback loops
+Driven by: underused insights
+
+Improve retention analytics
+Driven by: reactive churn management
+
+12. STRATEGY & ROADMAP
+
+History
+[60, 62, 63, 65]
+
+Indicators
+
+Alignment — 70% (+3%)
+
+Execution — 60% (–8%)
+
+Prioritization — 58% (–10%)
+
+KPI Tracking — 62% (–5%)
+
+Insight
+“Strategy is defined but inconsistently executed.
+Improvement is slow across periods.
+Survey responses show gaps in prioritization and tracking.”
+
+Actions
+Align initiatives to KPIs
+Driven by: unclear success metrics
+
+Improve prioritization
+Driven by: competing initiatives
+
+Establish execution cadence
+Driven by: inconsistent follow-through

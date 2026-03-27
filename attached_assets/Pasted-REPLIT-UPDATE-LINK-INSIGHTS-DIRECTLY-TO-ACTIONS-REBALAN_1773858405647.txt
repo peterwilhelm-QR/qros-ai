@@ -1,0 +1,132 @@
+REPLIT UPDATE — LINK INSIGHTS DIRECTLY TO ACTIONS + REBALANCE LAYOUT
+OBJECTIVE
+
+Create a direct visual and structural link between each insight and its corresponding action
+
+Reduce space used by indicators
+
+Make insight → action the primary focus of the page
+
+1. REMOVE CURRENT “NEXT BEST ACTIONS” SECTION
+
+Delete the standalone “Next Best Actions” card entirely
+
+Do not render actions as a separate list anymore
+
+2. REPLACE “EXECUTIVE INSIGHT” WITH LINKED INSIGHT-ACTION BLOCKS
+New Component: “Key Findings & Actions”
+
+Replace the current Executive Insight card with this structure:
+
+For each finding:
+
+Insight (primary line)
+
+Action (directly attached under it)
+
+Render format (repeat 3 times):
+
+[Insight statement]
+Small muted text: explanation if needed (optional, max 1 line)
+
+→ Action: [specific action tied to this insight]
+
+Styling rules:
+
+Insight text: normal body, white
+
+Action text:
+
+prefixed with arrow “→”
+
+orange color (#FF6A2A)
+
+slightly bolder than body
+
+Group each pair with subtle spacing (not separate cards)
+
+3. GOVERNANCE — REPLACE CONTENT WITH EXACT STRUCTURE
+Key Findings & Actions
+
+Governance policies are defined but applied inconsistently across systems
+→ Action: Standardize policy enforcement across systems
+
+Monitoring and enforcement capabilities lag behind policy maturity
+→ Action: Implement centralized monitoring for governance controls
+
+Ownership of governance controls and escalation is unclear
+→ Action: Define ownership and escalation paths for governance
+
+4. FINANCE — REPLACE CONTENT WITH EXACT STRUCTURE
+Key Findings & Actions
+
+Process automation remains below peers despite gains in reporting speed
+→ Action: Automate AP/AR and reconciliation workflows
+
+Financial workflows show high manual intervention and inconsistent ownership
+→ Action: Standardize core finance workflows
+
+Lack of standardized processes across finance teams
+→ Action: Define ownership and governance for financial data and reporting
+
+5. REDUCE KEY INDICATORS HEIGHT
+Modify “Key Indicators” card:
+
+Reduce vertical height by ~30–40%
+
+Reduce spacing between rows
+
+Reduce bar thickness by ~20%
+
+Keep only:
+
+label
+
+% score
+
+benchmark delta
+
+Do NOT add more indicators.
+
+6. LAYOUT ADJUSTMENT
+New layout:
+
+LEFT (60% width):
+
+Timeline
+
+Key Indicators (reduced height)
+
+RIGHT (40% width):
+
+Key Findings & Actions (primary focus)
+
+Ensure right column visually dominates over indicators.
+
+7. REMOVE “DRIVEN BY” TEXT
+
+Delete all “Driven by” lines
+
+They are replaced by direct pairing of insight → action
+
+8. PRIORITY HANDLING
+
+Keep highlight on first action only
+
+Apply highlight to the first insight-action pair
+
+Do not label multiple items as priority
+
+9. DO NOT CHANGE
+
+Timeline
+
+Header
+
+Styling system
+
+Colors
+
+RESULT
+
+Each insight is immediately followed by its action, with no separation.

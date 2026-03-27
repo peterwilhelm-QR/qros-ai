@@ -1,0 +1,118 @@
+ENFORCE DIRECT LINK BETWEEN INSIGHTS AND ACTIONS
+OBJECTIVE
+
+Update all dimension detail pages so that:
+
+Executive Insight is composed of explicit bullet signals
+
+Each action maps 1:1 to a specific signal
+
+No generic or implied connections
+
+1. EXECUTIVE INSIGHT — FORMAT CHANGE
+Replace all existing insight text with this structure:
+
+Render as 3 bullet points (no paragraph):
+
+[Signal 1: specific observed issue]
+
+[Signal 2: specific observed issue]
+
+[Root cause: structural explanation]
+
+2. NEXT BEST ACTIONS — FORMAT CHANGE
+Each action must map directly to one signal above.
+
+Structure:
+
+Action title
+Driven by: [exact matching signal text or clearly aligned phrasing]
+
+3. FINANCE — REPLACE CONTENT WITH EXACT TEXT
+Executive Insight
+
+Process automation remains below peers despite gains in reporting speed
+
+Financial workflows show high manual intervention and inconsistent ownership
+
+Lack of standardized processes across finance teams
+
+Next Best Actions
+
+Standardize core finance workflows
+Driven by: inconsistent workflow ownership across teams
+
+Automate AP/AR and reconciliation processes
+Driven by: high manual intervention in finance workflows
+
+Define data ownership for financial reporting
+Driven by: lack of standardized processes across teams
+
+4. GOVERNANCE & RISK — REPLACE CONTENT WITH EXACT TEXT
+Executive Insight
+
+Governance policies are defined but applied inconsistently across systems
+
+Monitoring and enforcement capabilities lag behind policy maturity
+
+Ownership of governance controls and escalation is unclear
+
+Next Best Actions
+
+Implement centralized monitoring for governance controls
+Driven by: monitoring and enforcement capabilities lag behind policy maturity
+
+Standardize policy enforcement across systems
+Driven by: inconsistent application of governance policies
+
+Define ownership and escalation paths for governance
+Driven by: unclear ownership of governance controls
+
+5. APPLY SAME STRUCTURE TO ALL OTHER DIMENSIONS
+RULES
+
+For every dimension:
+
+Executive Insight must contain exactly 3 bullets:
+
+2 observed signals
+
+1 root cause
+
+Next Best Actions must contain 3–4 actions:
+
+Each action must map directly to one insight bullet
+
+“Driven by” must reference the matching signal
+
+6. REMOVE GENERIC LANGUAGE
+
+Do not use:
+
+“opportunities exist”
+
+“can improve”
+
+“should consider”
+
+Use direct diagnostic statements only.
+
+7. UI REQUIREMENTS
+
+Render Executive Insight as bullet list (not paragraph)
+
+Keep spacing consistent with current card
+
+Do not increase card height significantly
+
+8. DO NOT CHANGE
+
+Layout
+
+Timeline
+
+Indicators
+
+Styling
+
+Only update content structure and text.

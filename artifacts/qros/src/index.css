@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-success: hsl(var(--success));
+  --color-warning: hsl(var(--warning));
+
+  --font-sans: 'Inter', sans-serif;
+  --radius: 0.75rem; /* rounded-xl */
+}
+
+/* 
+  QROS Dark Theme ONLY 
+  Overriding all default light/dark toggles to force the specific dark theme
+*/
+:root {
+  --background: 240 3% 5%; /* #0B0B0C */
+  --foreground: 220 9% 95%; /* #F3F4F6 */
+  
+  --card: 240 3% 7%; /* #111113 */
+  --card-foreground: 220 9% 95%;
+  
+  --border: 240 4% 12%; /* rgba(255,255,255,0.06) approx */
+  --input: 240 4% 12%;
+  --ring: 24 100% 58%;
+  
+  --primary: 24 100% 58%; /* #FF6A2A */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 240 4% 12%;
+  --secondary-foreground: 220 9% 95%;
+  
+  --muted: 240 4% 12%;
+  --muted-foreground: 218 11% 65%; /* #9CA3AF */
+  
+  --accent: 24 100% 58%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%; /* #EF4444 */
+  --destructive-foreground: 0 0% 100%;
+
+  --success: 142 71% 45%; /* #22C55E */
+  --warning: 45 93% 47%; /* Yellow roughly */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    letter-spacing: -0.01em;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground;
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(circle at 20% 20%, #1A0F0A 0%, transparent 60%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  h1 {
+    @apply text-[28px] font-bold leading-tight;
+  }
+  h2 {
+    @apply text-[20px] font-semibold leading-snug;
+  }
+  .body-text {
+    @apply text-[14px];
+  }
+  .small-text {
+    @apply text-[12px];
+  }
+}
+
+@layer utilities {
+  .qros-card {
+    @apply bg-card rounded-xl border border-[rgba(255,255,255,0.06)] shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_10px_30px_rgba(0,0,0,0.6)];
+  }
+  
+  .qros-glow-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .qros-glow-hover:hover {
+    @apply scale-[1.02] border-primary/50 shadow-[0_0_0_1px_rgba(255,106,42,0.2),0_10px_30px_rgba(0,0,0,0.8),0_0_20px_rgba(255,106,42,0.1)];
+  }
+}
