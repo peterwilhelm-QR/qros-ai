@@ -1,0 +1,65 @@
+# QR Asset descriptor for QR/OS itself — registered through QR/OS's own
+# "Add an asset" flow. Type: Accelerator. See qros-admin-api/src/asset-yaml.mjs
+# for the format, and the box reference in the authoring template.
+
+kind: Asset
+
+name: QR/OS Explorer
+type: Accelerator
+
+description: >-
+  QR/OS Explorer is a lightweight operations console for managing a catalog of
+  reusable assets, the engagements that deploy them, and the measurable outcomes
+  they drive — all organized around Quantum Rise's "boxes," the 40 capability
+  areas (spanning the Human, Governance, Agentic, and Third-Party Technology
+  domains) that QR structures its work around. Built for Quantum Rise's own
+  delivery practice, it is equally usable as an accelerator a client can stand
+  up to manage their own customers, jobs, assets, and outcomes.
+
+card_short_description: Catalog reusable assets, run engagements against them, and capture measurable outcomes — deployable by client teams too.
+
+boxes:
+  - code: G1 # Value Management & Portfolio Governance
+  - code: G6 # Model, Agent & Asset Registry
+  - code: G8 # Audit, Traceability & Evidence
+
+accelerator:
+  mandatory:
+    addresses:
+      - No single place to see which reusable assets exist and what they do
+      - Engagements and their outcomes tracked across scattered docs and spreadsheets
+      - Hard to show measurable, attributable results across a portfolio of work
+      - Onboarding new assets is manual and inconsistent
+    delivers:
+      - A capability map of "boxes" (40 areas across the Human, Governance, Agentic, and Third-Party Technology domains) that assets, engagements, and outcomes are organized against
+      - Asset catalog with type-specific metadata (diagnostics, accelerators, frameworks, playbooks, thought leadership, templates), each tied to the boxes it supports
+      - Engagement tracking linked to the assets deployed and the team leading the work
+      - Outcome capture with baseline, result, measurement method, and confidence
+      - Case studies assembled from captured engagement outcomes
+      - Client and opportunity (pipeline) records
+      - Register-from-source flow that parses a Markdown or YAML descriptor into the catalog
+      - Admin user management with role-based access (Member through Admin)
+    tech_stack:
+      - React + Vite single-page console (the admin UI)
+      - Node.js API backed by PostgreSQL (schema + seed run on first boot)
+      - Microsoft Entra ID (OIDC) sign-in with role-based access
+      - Azure Container Apps + Azure Container Registry, with Key Vault for secrets
+      - GitHub App integration for importing asset descriptors from a repository
+      - Infrastructure as code via OpenTofu (Terraform)
+    setup_overview:
+      - Provision PostgreSQL and an Azure Container Apps environment (OpenTofu modules included)
+      - Register an Entra application for OIDC sign-in and store its client secret in Key Vault
+      - Deploy the API and web container images; the API applies migrations and seeds on first boot
+      - Bind the public hostname to the web app, which reverse-proxies /api to the internal API
+    configuration:
+      - Database connection — Managed Identity in production, PG environment variables in dev
+      - Entra issuer, client id, client secret, and redirect URI
+      - Session secret for signed cookies
+      - Optional GitHub App (app id, installation id, private key) to enable asset import from GitHub
+  optional:
+    demo: https://qrops.quantumrise.app
+    limitations:
+      - Single-tenant today — one organization's data per deployment
+      - API sessions are held in memory, so it currently runs as a single replica
+      - Source import reads from GitHub (Markdown/YAML); SharePoint import is catalogued but not yet wired
+    maintainer: Quantum Rise — Platform Engineering
